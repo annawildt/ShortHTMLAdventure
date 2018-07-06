@@ -21,11 +21,51 @@ a:link {
     text-decoration: none;
     margin-top: 15px;
 }
-img {
+img#entrance{
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 650px;
+    height: 650px;
+}
+img#tunnel {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 550px;
+}
+img#dragon {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 550px;
+}
+img#cat {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
     height: 600px;
+}
+img#angrycat img#dark {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 600px;
+}
+img#treasure {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 850px;
+    height: 650px;
 }
