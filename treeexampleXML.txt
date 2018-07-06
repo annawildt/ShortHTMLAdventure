@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<CAT>
+    <attributes fluffy='true'
+    color="black"
+    age='14'></attributes>
+    
+    <KITTEN>
+        <attributes fluffy='true'
+        color="gray"
+        age='1'></attributes>
+
+        <TOY>
+            <attributes toyType="yarn"
+            soft='true'
+            color="red"></attributes>
+        </TOY>
+
+        <TOY>
+            <attributes toyType="plushie"
+            soft='true'
+            color="pink"></attributes>
+        </TOY>
+    </KITTEN>
+
+    <KITTEN>
+        <attributes color="orange"
+        age='1'></attributes>
+
+        <TOY>
+            <attributes toyType="ball"
+            color="blue"></attributes>
+        </TOY>
+    </KITTEN>
+</CAT>
