@@ -24,72 +24,77 @@ a:link {
 img#entrance{
     border-radius: 8px;
     display: block;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    width: 650px;
-    height: 650px;
+    width: 550px;
+    height: 550px;
 }
 img#tunnel {
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    height: 550px;
+    margin-bottom: 50px;
+    width: 600px;
+    height: 450px;
 }
 img#dragon {
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
     width: 650px;
     height: 550px;
+}
+@keyframes grow {
+	from { transform: none; }
+	50% { transform: scale(0.5); }
+	to { transform: none; }
 }
 img#dragon:hover {
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 850px;
-    height: 650px;
+    margin-bottom: 50px;
+    animation: grow 0.6s infinite;
+   
 }
 img#cat {
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
+    width: 400px;
+    height: 500px;
+}
+img#angrycat, img#dark{
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
     width: 500px;
-    height: 600px;
-}
-img#angrycat {
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 600px;
-}
-img#dark {
-    border-radius: 8px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    height: 600px;
+    height: 500px;
 }
 img#angrycat:hover {
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    height: 700px;
+    margin-bottom: 50px;
+    animation: grow 0.6s infinite;
 }
 img#treasure {
     border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 850px;
-    height: 650px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 750px;
+    height: 550px;
 }
